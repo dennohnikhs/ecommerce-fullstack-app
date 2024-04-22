@@ -9,8 +9,9 @@ const AdminLayout = ({ children }: Readonly<{ children: React.ReactNode }>) => {
         <NavLinks href="/admin/users">Users</NavLinks>
         <NavLinks href="/admin/products">Products</NavLinks>
         <NavLinks href="/admin/customers">Customers</NavLinks>
+        <NavLinks href="/admin/sales">Sales</NavLinks>
       </Nav>
-      <div className="container py-6"></div>
+      <div className="container py-6">{children}</div>
     </>
   );
 };
