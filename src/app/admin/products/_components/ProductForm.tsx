@@ -6,7 +6,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { formatCurrency } from "@/lib/formatter";
 import { Label } from "@radix-ui/react-label";
 import { useState } from "react";
-import addProduct from "../../_actions/products";
+import {addProduct} from "../../_actions/products";
 
 export default function ProductForm() {
   const [priceInCents, setPriceInCents] = useState<Number>();
