@@ -1,0 +1,68 @@
+<div class="px-2 text-gray-700">
+  <div class="grid grid-cols-2 gap-5 pt-5">
+    <div>
+      <h1 class="py-2">Progress</h1>
+      <div class="flex justify-between bg-gray-200 bg-opacity-30 p-2">
+        <h1 class="text-green-500">In progress</h1>
+        <!-- https://feathericons.dev/?search=chevron-down&iconset=feather -->
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          width="24"
+          height="24"
+          class="main-grid-item-icon"
+          fill="none"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+        >
+          <polyline points="6 9 12 15 18 9" />
+        </svg>
+      </div>
+    </div>
+    <div>
+      <h1 class="py-2">Type</h1>
+      <div class="flex justify-between bg-gray-200 bg-opacity-30 p-2">
+        <h1 class="text-gray-600">Non Perishable goods</h1>
+        <!-- https://feathericons.dev/?search=chevron-down&iconset=feather -->
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          width="24"
+          height="24"
+          class="main-grid-item-icon"
+          fill="none"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+        >
+          <polyline points="6 9 12 15 18 9" />
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div>
+    <h1 class="py-2 mt-3">Order Information</h1>
+    <app-shipping-logistics-order-information></app-shipping-logistics-order-information>
+  </div>
+  <div>
+    <h1 class="py-2 mt-3">Recipient</h1>
+    <div class="flex flex-row gap-2 items-center bg-gray-200 bg-opacity-30 p-2">
+      <img
+        src="https://placebear.com/640/360"
+        class="h-[40px] w-[40px] rounded-full"
+        alt=""
+      />
+      <div>
+        <h1 class="text-sm font-boldbold text-black">Kathy Miller</h1>
+        <h1 class="text-xs text-gray-500">kathmillsgmail.com</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-gray-200 bg-opacity-30 p-2">
+    <app-shipping-logistics-order-details></app-shipping-logistics-order-details>
+  </div>
+</div>

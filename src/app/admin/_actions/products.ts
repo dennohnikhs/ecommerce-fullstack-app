@@ -2,6 +2,7 @@
 import { z } from "zod";
 import fs from "fs/promises";
 import db from "@/db/db";
+import { File } from "buffer";
 import { redirect } from "next/navigation";
 
 const fileSchema = z.instanceof(File, { message: "Required" });
